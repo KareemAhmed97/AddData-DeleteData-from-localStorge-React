@@ -138,6 +138,7 @@ export default function AddProduct() {
             placeholder="Please Enter Price"
             className="form-control shadow-none p-3"
             id="price"
+            min={0}
             value={formData.price}
             required
             onChange={handleInputChange}

@@ -67,7 +67,7 @@ const Products = () => {
         <Fragment>
           <div className="d-flex flex-wrap ">
             {products.map((product, index) => (
-              <div key={index} className="card m-2 col-3 bg-secondary-subtle">
+              <div key={index} className="card m-md-2 col-md-3 col-12 bg-secondary-subtle">
                 <div className="card-body d-md-flex justify-content-between align-items-start">
                   <div className="col-md-11 col-12 d-flex flex-column  ">
                     <p className="card-text">Name:{product.name}</p>
